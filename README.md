@@ -4,6 +4,9 @@ Este repositorio contiene una aplicación web que simula una pizarra interactiva
 
 ### Visión General de la Arquitectura
 
+![Blank diagram - Page 1 (2)](https://github.com/user-attachments/assets/a95c2519-5bb0-4f96-95f9-3f8f5c10ad4e)
+
+
 #### Backend
 
 El backend está desarrollado con Spring Boot y la API Java WebSocket. Incluye los siguientes componentes:
