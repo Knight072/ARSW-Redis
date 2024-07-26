@@ -33,11 +33,11 @@ Para ejecutar la aplicación localmente:
 1. **Configuración del Backend**:
    - Asegúrate de tener Java y Maven instalados.
    - Abre el proyecto en tu IDE y ejecuta `BBAppStarter.java`.
-   - El backend se iniciará en `http://localhost:8080`.
+   - El backend se iniciará en `https://localhost:8443`.
 
 2. **Configuración del Frontend**:
    - Abre `index.html` en un navegador web moderno.
-   - El frontend se conectará al servicio WebSocket del backend que corre en `ws://localhost:8080/bbService`.
+   - El frontend se conectará al servicio WebSocket del backend que corre en `wss://localhost:8443/bbService`.
 
 ### Tecnologías Utilizadas
 
@@ -56,6 +56,9 @@ Para ejecutar la aplicación localmente:
   
 ### Uso
 
+- Visita la página de inicio segura (`https://localhost:8443`) y haz clic en el enlace para ver el saludo.
+- Inicia sesión con el usuario predeterminado (usuario: "user", contraseña: "password").
+- Asegurate de tener corriendo el contenedor docker con la imagen de Redis.
 - Abre la aplicación en un navegador después de iniciar tanto el backend como el frontend.
 - Usa el ratón para dibujar en el lienzo en el frontend.
 - Los cambios se transmitirán en tiempo real a todos los clientes conectados a través de WebSocket.
